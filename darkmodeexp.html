@@ -1,0 +1,25 @@
+<head>
+    <link rel="stylesheet" href="darkmodeexp.css">
+</head>
+
+<body class="dark">
+    <div class="container">
+            <div class="d-block d-flex align-items-center py-2"><i class="fas fa-sun"></i>
+                <div class="switchmd"> <input type="checkbox" id="switch1" class="switchmd__input" onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')" title="Dark/light" checked> <label for="switch1" class="switchmd__label"> </label></div>
+                <i class="fas fa-moon"></i>
+            </div>
+      <div class="card">
+        <h1>
+            Barre de défilement custom
+        </h1>
+        <p>Well, here we have a toggle button inspired by Material Design and too many CSS just for one button, instead of using this, I don't have an alternative.  </p>
+      
+      <p>
+        
+Lorem ipsum dolor sit amet, 
+      </p>
+        <blockquote>... et en bonus un dark mode + utiliser le bouton en haut à gauche ! </blockquote>
+        <p></p>
+      </div>
+    </div>
+</body>
